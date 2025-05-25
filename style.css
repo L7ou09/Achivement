@@ -1,0 +1,570 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+
+ul li a:hover{
+    transition: 0.5s;
+    border-bottom: 2.5px white solid; 
+    border-radius: 2px 2px 2px 2px;
+    color: rgb(214, 234, 252); 
+}
+
+
+
+
+span {
+    display: flex;
+    background-color: rgb(147, 174, 224);
+    width: 40.03cm;
+    height: 90px;
+    border-bottom: solid black 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.BlackFlower{
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    transform: rotate(-10deg);
+}
+
+
+
+
+.fa-cog{
+    height: 10px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 32px;
+    font-size: 25px;
+}
+
+.fa-cog:hover{
+    color: rgb(82, 81, 81);
+    cursor: pointer;
+}
+
+.NOOR{
+    margin-top: 27px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Home{
+    margin-top: 35px;
+    margin-left: 600px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Content{
+    margin-top: 35px;
+    margin-left: 65px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Dashboard{
+    margin-top: 35px;
+    margin-left: 65px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#About{
+    margin-top: 35px;
+    margin-left: 65px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+.the-firstCARD{
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 85px;
+    padding-top: 350px;
+    position: absolute;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 35px;
+    height: 500px;
+    width: 390px;
+    background-color: rgb(219, 217, 217);
+    margin-left: 100px;
+    margin-top: 50px;
+    box-shadow: 1.8px 1.8px 0.2px rgb(147, 174, 224);
+}
+
+.EX1{
+    opacity: 0.7;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    margin-top: 70px;
+    margin-left: 120px;
+    background-color: rgb(147, 174, 224);
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+}
+
+.EX2{
+    opacity: 0.6;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    background-color: gold;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 598px;
+    border: 1px solid black;
+}
+
+.Buy2{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 23px;
+    margin-left: 830px;
+    margin-top: 470px;
+    border: 1px solid grey;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+    font-size: 20px;
+}
+
+.Buy2:hover{
+    background: black;
+    color: white;
+    opacity: 0.8;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+.Buy2:active{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.Buy1{
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 23px;
+    margin-left: 360px;
+    margin-top: 470px;
+    border: 1px solid grey;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+}
+
+.Buy1:hover{
+    background: black;
+    color: white;
+    opacity: 0.8;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+.Buy1:active{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+
+
+.MoreInf1{
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 173px;
+    margin-top: 471px;
+    margin-left: 155px;
+    height: 40px;
+    padding-left: 19px;
+    padding-top: 10px;
+    border-radius: 60px;
+}
+
+.MoreInf1:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+    background-color: rgb(127, 162, 229);
+    color: black;
+    border: 1px solid black;
+}
+
+.MoreInf1:active{
+    color: rgb(127, 162, 229);
+    background-color: black;
+    transition: 0.4s;
+}
+
+
+
+.TwoCross{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 110px;
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+.the-firstCARD:hover{
+    transition: 0.5s;
+    border: 3.5px solid black;
+}
+
+.the-secondCARD{
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 85px;
+    padding-top: 350px;
+    position: absolute;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 35px;
+    height: 500px;
+    width: 390px;
+    background-color: rgb(219, 217, 217);
+    margin-left: 578px;
+    margin-top: 50px;
+    box-shadow: 1.8px 1.8px 0.2px gold;
+}
+
+.the-secondCARD:hover{
+    transition: 0.5s;
+    border: 3.5px solid black;
+}
+
+.MoreInf2{
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 173px;
+    margin-top: 471px;
+    margin-left: 625px;
+    height: 40px;
+    padding-left: 19px;
+    padding-top: 10px;
+    border-radius: 60px;
+}
+
+.MoreInf2:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+    background-color: gold;
+    color: black;
+    border: 1px solid black;
+}
+
+.MoreInf2:active{
+    color: gold;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.the-thirdCARD{
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 85px;
+    padding-top: 350px;
+    position: absolute;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 35px;
+    height: 500px;
+    width: 390px;
+    background-color: rgb(219, 217, 217);
+    margin-left: 1050px;
+    margin-top: 50px;
+    box-shadow: 1.8px 1.8px 0.2px tomato
+}
+
+.the-thirdCARD:hover{
+    transition: 0.5s;
+    border: 3.5px solid black;
+}
+
+.Buy3{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 23px;
+    margin-left: 1310px;
+    margin-top: 470px;
+    border: 1px solid grey;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+    font-size: 20px;
+}
+
+.Buy3:hover{
+    background: black;
+    color: white;
+    opacity: 0.8;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+.Buy3:active{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.MoreInf3{
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 173px;
+    margin-top: 471px;
+    margin-left: 1105px;
+    height: 40px;
+    padding-left: 19px;
+    padding-top: 10px;
+    border-radius: 60px;
+}
+
+.MoreInf3:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+    background-color: tomato;
+    color: black;
+    border: 1px solid black;
+}
+
+.MoreInf3:active{
+    color: tomato;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.EX3{
+    opacity: 0.7;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    background-color: tomato;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1070px;
+    border: 1px solid black;
+}
+
+.EX3:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.EX2:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.EX1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+footer{
+    opacity: 0.8;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: linear-gradient(to left ,rgb(147, 174, 224)15%, rgb(99, 144, 227)85%);
+    width: 100%;
+    height: 300px;
+    margin-top: 950px;
+}
+
+.fa-facebook{
+    position: absolute;
+    display: flex;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 1420px;
+}
+
+.fa-facebook:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+.fa-instagram{
+    position: absolute;
+    display: flex;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: 1424px;
+    height: 45px;
+    border-radius: 20%;
+}
+
+.fa-instagram:hover{
+    height: 45px;
+    transition: 0.4s;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)
+}
+
+.fa-github{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 1425px;
+    margin-top: 220px;
+}
+
+.fa-github:hover{
+    opacity: 1;
+    transition: 0.3s;
+    color: black;
+}
+
+.FaceName{
+    position: absolute;
+    display: flex;
+    margin-top: 55px;
+    margin-left: 1230px;
+    border-bottom: 2px solid black;
+}
+
+.InstName{
+    position: absolute;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 1227px;
+    border-bottom: 2px solid black;
+}
+
+.GitName{
+    position: absolute;
+    display: flex;
+    margin-top: 230px;
+    margin-left: 1264px;
+    border-bottom: 2px solid black;
+}
+
+
+.Made{
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+    font-size: 50px;
+    border-bottom: 5px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#Ayoub{
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#Ayoub:hover{
+    color: white;
+    transition: 0.5s;
+    border-bottom: 4px solid black;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.Gmail{
+    display: flex;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 75px;
+}
+
+.HoumouraAyoub{
+    color: black;
+    display: flex;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 760px;
+    border-bottom: 2px solid white;
+}
+
+.PhoneNum{
+    display: flex;
+    position: absolute;
+    margin-left: 785px;
+    margin-top: 190px;
+}
+
+.NUM{
+    display: flex;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 830px;
+    border-bottom: 2px solid white;
+}
+
+
+
+
