@@ -429,7 +429,7 @@ ul li a:hover{
     cursor: pointer;
 }
 
-.Footer{
+#Footer{
     opacity: 0.8;
     border: 1px solid black;
     border-top-left-radius: 30px;
