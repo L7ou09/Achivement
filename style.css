@@ -38,7 +38,7 @@ ul li a:hover{
 
 
 
-span {
+.tete{
     display: flex;
     background-color: rgb(147, 174, 224);
     width: 40.03cm;
@@ -96,7 +96,7 @@ span {
     font-weight: bold;
 }
 
-.Dashboard{
+#Dashboard{
     margin-top: 35px;
     margin-left: 65px;
     font-size: 15px;
@@ -246,7 +246,7 @@ span {
 .MoreInf1:active{
     color: rgb(127, 162, 229);
     background-color: black;
-    transition: 0.4s;
+    transition: 0s;
 }
 
 
@@ -318,7 +318,7 @@ span {
 .MoreInf2:active{
     color: gold;
     background-color: black;
-    transition: 0.4s;
+    transition: 0s;
 }
 
 .the-thirdCARD{
@@ -399,7 +399,7 @@ span {
 .MoreInf3:active{
     color: tomato;
     background-color: black;
-    transition: 0.4s;
+    transition: 0s;
 }
 
 .EX3{
@@ -429,7 +429,7 @@ span {
     cursor: pointer;
 }
 
-footer{
+.Footer{
     opacity: 0.8;
     border: 1px solid black;
     border-top-left-radius: 30px;
@@ -437,7 +437,7 @@ footer{
     background: linear-gradient(to left ,rgb(147, 174, 224)15%, rgb(99, 144, 227)85%);
     width: 100%;
     height: 300px;
-    margin-top: 950px;
+    margin-top: 700px;
 }
 
 .fa-facebook{
@@ -508,7 +508,7 @@ footer{
 }
 
 
-.Made{
+#Made{
     display: flex;
     position: absolute;
     margin-top: 50px;
@@ -565,6 +565,20 @@ footer{
     border-bottom: 2px solid white;
 }
 
+#TheMidlle{
+    display: flex;
+    position: absolute;
+    width: 40cm;
+    height: 300px;
+    background: linear-gradient(rgb(147, 174, 224)70%, rgb(188, 188, 188) 30%);
+    margin-top: 600px;
+}
 
-
-
+.BlueF{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 140px;
+    margin-left: 100px;
+    opacity: 0.3;
+}
