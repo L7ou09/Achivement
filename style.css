@@ -97,6 +97,8 @@ ul li a:hover{
 }
 
 #Dashboard{
+    position: absolute;
+    display: flex;
     margin-top: 35px;
     margin-left: 65px;
     font-size: 15px;
